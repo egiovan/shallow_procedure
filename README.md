@@ -7,6 +7,7 @@ subroutine shallow_transpose(src, dst, status)
   f_type, intent(in), pointer :: src(:,:)
   f_type, intent(out), pointer :: dst(:,:)
   integer, intent(out) :: status
+end subroutine
 ```
 Equivalent, if it were possible, to:
 ```fortran
